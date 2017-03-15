@@ -11,18 +11,17 @@
     <body>
         <div class="title">WEATHER TIME</div>
         <div class="search">
-            <input id='city'type="text" />
-            <button type="submit" onclick="data_weather()">Buscar</button>
+            <input id='city'type="text" value=""/>
+            <button type="submit" onclick="SearchHelper.dataWeather()">Buscar</button>
         </div>
-        <div id='weather' class="loading">
+        <div id='weather' class="hidden">
             <div class="cssload-preload-juggle">
                 <div class="cssload-ball"></div>
                 <div class="cssload-ball"></div>
                 <div class="cssload-ball"></div>
             </div>
         </div>
-
-
+        <ul id="document" class="hidden"></ul>
 
     </body>
 </html>

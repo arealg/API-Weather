@@ -31,6 +31,24 @@ html,body{
     position: relative;
     height:calc(100% - 44px - 95px);
     overflow: hidden;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.documents {
+    position: relative;
+    color:darkgreen;
+    margin-top: -30%;
+    top: 30%;
+}
+
+.p {
+
+    height:calc(100% - 44px - 95px);
+    margin
 }
 
 .cssload-preload-juggle {
